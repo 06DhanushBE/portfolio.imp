@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+ 
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="theme">
+          <a href="#" id="theme-toggle"><i class="fas fa-sun"></i></a>
+        </div>
+        
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="DBE.jpg" alt="BE" />
+          </div>
+          <div class="right">
+            <div class="topic">Designing Is My Passion</div>
+            <p>
+              Welcome to my portfolio! I am a passionate individual who has honed my skills in web development through my studies at RV University in Bangalore. Proficient in HTML, CSS, and JavaScript, I have crafted interactive and visually appealing websites, tackling challenges with creativity and precision. Beyond code, my artistic background shines through in my collection of paintings, logo designs, and digital art, each piece telling a unique story of inspiration and technique. Through continuous learning and exploration, I am committed to evolving both my technical and creative abilities. With a foundation in web development and a heart rooted in art, I am excited about the limitless possibilities at the intersection of technology and design. Let's connect and bring innovative ideas to life!
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflects Our Knowledge</div>
+            <p>In the realm of web development, I bring a solid foundation in HTML, specializing in structuring content for seamless user experiences. My expertise in CSS is dedicated to crafting visually appealing and responsive designs. While my JavaScript skills are in the early stages, I am committed to expanding them for creating dynamic and interactive web applications.</p>
+            <p><br>Additionally, I leverage the power of AI applications to elevate the quality of my projects. Using advanced algorithms, I upscale visuals and optimize content, ensuring a cutting-edge and polished presentation in my web development and design endeavors.</p>
+            
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavScript</div>
+              <div class="per">30%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Web Devlopment</div>
+            <p>"I create stunning and functional websites tailored to enhance your online presence and business goals."</p>
+          </div>
+          
+         
+            
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">vedio editing</div>
+            <p>"Transforming your vision into captivating visual stories through expert video editing services that elevate your brand and engage your audience."</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-tablet-art"></i>
+            </div>
+            <div class="topic">logo designer</div>
+            <p>"Transform your brand identity with a unique and impactful logo design that captures the essence of your business and leaves a lasting impression."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ 
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">Have Any Project?</div>
+          <p>.</p>
+          <div class="button">
+            <button id="open-contact-form">Let's Chat</button>
+          </div>
+          
+        
+          <div class="popup-form" id="contact-popup">
+            <div class="form-container">
+              <span class="close-btn" id="close-contact-form">&times;</span>
+             
+              <h1>Elegant Contact Form</h1>
+              <form class="cf">
+          
+                <input type="submit" value="Submit" id="input-submit">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">CodingLab</a> | &#169; 2021 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
